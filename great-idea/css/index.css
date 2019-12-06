@@ -129,10 +129,7 @@ nav {
 	/* border: 5px solid red; */
 	/* border: 2px solid green ; */
 	margin: 0 10%;
-	
-	
-
-	
+		
 }
 
 /* banner styling */
@@ -153,18 +150,27 @@ nav {
 /* services banner */
 #services.banner{
 	display: flex;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	flex-direction: column;
+	
 	
 	
 }
 #banner-img img{
+	width:100%;
 
-	
-	
-	
-	
+}
+.services-content {
+	margin-top:0;
+	padding-top:0;
+	/* border: 1px solid red; */
 
+}
+.services-content h2 {
+	font-size: 5vh;
+}
+.services-p p{
+	font-size: 100vh;
 }
 
 .banner div{
@@ -236,7 +242,11 @@ nav {
 	margin: 3vh 0;
 }
 .grey-box h3{
+	font-size: 5vh;
 	padding-top:1vh;
+}
+.grey-box p{
+	font-size: 30px;
 }
 .grey-box button {
 	width: 30%;
@@ -245,10 +255,15 @@ nav {
 	border: 2px solid black;
 	font-size: 16px;
 }
+.grey-box button:hover{
+	background-color: black;
+	color: white;
+	text-decoration:strong;
+}
 .grey-box p{
-	font-size: 20px;
+	font-size: 3vh;
 	height: 20vh;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 
 
@@ -277,7 +292,7 @@ h3 {
 }
 
  p {
-	font-size: 20px;
+	font-size: 3vh;
 	padding-left: 5px;
 }
 
@@ -310,9 +325,13 @@ h3 {
 	display: flex;
 	justify-content: space-evenly;
 	margin: auto;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 	padding: 3vh;
 }
+bottom:hover {
+	background-color: grey;
+}
+
 .bottom section {
 
 	/* display: flex; */
@@ -333,6 +352,8 @@ h3 {
 	list-style-type: square;
 	margin-top: 5vh;
 	font-size:18px;
+	padding-left: 3vh;
+	/* border: 1px solid red; */
 }
 .bottom-img  {
 	width: 47%;
